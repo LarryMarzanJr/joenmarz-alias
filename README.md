@@ -22,4 +22,4 @@ plugins=(... joenmarz-alias)
 | Alias                  | Command                                                   |
 | :--------------------- | :-------------------------------------------------------- |
 | `blog`                 | `cd "~/Documents/blog"`                                   |
-| `mkblog`               | `mkdir "~/Documents/blog`                                 |
+| `mkblog`               | `mkdir "~/Documents/blog"`                                |

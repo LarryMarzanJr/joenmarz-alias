@@ -21,5 +21,6 @@ plugins=(... joenmarz-alias)
 
 | Alias                  | Command                                                   |
 | :--------------------- | :-------------------------------------------------------- |
+| `al`                   | `cd "~/Projects/joenmarz-alias"`                          |
 | `blog`                 | `cd "~/Documents/blog"`                                   |
 | `mkblog`               | `mkdir "~/Documents/blog"`                                |

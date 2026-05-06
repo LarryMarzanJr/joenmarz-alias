@@ -4,14 +4,27 @@ This personal alias for my laptop can be used as submodule for
 
 
 ## Installation
+Alteratively, you can choose between these two methods of installation:
 
-To use it, go to `.oh-my-zsh` directory and install it as submodule:
+Method 1:
+Go to `.oh-my-zsh` directory and install it as submodule:
 ```zsh
 cd ~/.oh-my-zsh
 git submodule add https://github.com/LarryMarzanJr/joenmarz-alias.git plugins/joenmarz-alias
 ```
 
-Then add `joenmarz-alias` to the plugins array in your zshrc file:
+Method 2:
+Clone this repository:
+```zsh
+git clone https://github.com/LarryMarzanJr/joenmarz-alias.git ~/.joenmarz-alias
+```
+Then link this repository to `oh-my-zsh` plugins directory:
+```zsh
+ln -s ~/.joenmarz-alias ~/.oh-my-zsh/plugins/joenmarz-alias
+```
+
+## Enabling Plugin
+To enable this plugin add `joenmarz-alias` to the plugins array in your `.zshrc` file:
 
 ```zsh
 plugins=(... joenmarz-alias)
